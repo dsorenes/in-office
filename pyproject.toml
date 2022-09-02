@@ -8,6 +8,7 @@ packages = [{include = "in_office"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+schedule = "^1.1.0"
 
 
 [build-system]
