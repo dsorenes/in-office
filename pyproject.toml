@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "in-office"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Sørenes <daniel@sorenes.no>"]
+readme = "README.md"
+packages = [{include = "in_office"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
